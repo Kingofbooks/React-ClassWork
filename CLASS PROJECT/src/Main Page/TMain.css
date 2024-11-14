@@ -1,0 +1,147 @@
+/* General Styles */
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: rgba(36, 215, 13, 0.762); 
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content-wrapper {
+    margin-left: 250px;
+    margin-top: 80px; /* Adjust to the height of the header */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.user-info {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.card.green {
+    background-color: #28a745;
+}
+
+.card.red {
+    background-color: #dc3545;
+}
+
+.card.yellow {
+    background-color: #ffc107;
+}
+
+.card.blue {
+    background-color: #007bff;
+}
+
+.transactions-section {
+    margin-top: 20px;
+}
+
+.transactions-section h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}

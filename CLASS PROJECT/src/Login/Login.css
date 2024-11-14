@@ -1,0 +1,121 @@
+/* Style for the login container and centering */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+}
+
+/* Style for the login box */
+.login-box {
+    background-color: #2e2e2e; /* Dark grey box */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Login box title */
+.login-box h2 {
+    color: #4CAF50; /* Green text */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Label style */
+.login-box label {
+    display: block;
+    color: #fff; /* White labels */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Input fields style */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    background-color: #333; /* Dark input background */
+    color: white; /* White text */
+}
+
+/* Style for password field container */
+.password-field {
+    position: relative;
+}
+
+/* Show/Hide Password Button */
+.show-password-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #4CAF50;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Forgot password link */
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #4CAF50; /* Green link */
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Style for login button */
+.login-btn {
+    width: 100%;
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup-content button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+

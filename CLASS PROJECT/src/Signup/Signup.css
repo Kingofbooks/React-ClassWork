@@ -1,0 +1,91 @@
+/* src/SignUp/SignUp.css */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Darker background */
+}
+
+.signin-box {
+    background-color: #333; /* Dark gray background */
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    width: 100%;
+    max-width: 400px;
+}
+
+.signin-box h2 {
+    margin-bottom: 20px;
+    color: #4caf50; /* Green heading */
+    text-align: center;
+}
+
+.signin-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #bdbdbd; /* Light gray label */
+}
+
+.signin-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #4caf50; /* Green border */
+    border-radius: 4px;
+    background-color: #121212; /* Dark background for input */
+    color: white;
+    font-size: 14px;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+}
+
+.password-field input {
+    flex: 1;
+}
+
+.show-password-btn {
+    background: none;
+    border: none;
+    color: #4caf50; /* Green show password button */
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.signin-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+.forgot-password {
+    text-align: right;
+    color: #bdbdbd; /* Light gray for the link */
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #4caf50; /* Green link */
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
